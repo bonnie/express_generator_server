@@ -1,0 +1,23 @@
+https://expressjs.com/en/starter/generator.html
+
+1. (only once) install express generator utility system-wide
+
+    sudo -H npm install express-generator -g
+
+2. create an app: 
+
+    express --view=pug <app name>
+
+This creates an <app name> folder, with an app skeleton inside.
+
+3. cd into the <app name> folder, and run 
+
+    npm install
+
+This installs dependencies set up by the express generator in package.json.
+
+4. Start the app
+
+    DEBUG=<app name>:* npm start
+
+Defaut port is 3000
